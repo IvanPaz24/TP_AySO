@@ -1,0 +1,148 @@
+ls
+ls -l
+ls -la
+man ls
+man man
+pwd
+whoami
+echo
+echo "hola"
+echo $HOME
+ls
+cat README 
+cd repogit/
+ls
+git clone https://github.com/IvanPaz24/repo_Paz.git
+ls
+cd repo_Paz/
+ls
+history
+history > historial.txt
+ls
+cat historial.txt 
+git status
+git add .
+git status
+git commit -m "primer commit"
+git config --global user.name "IvanPaz24"
+git commit -m "primer commit"
+git push
+exit
+pwd
+echo $HOME
+ls
+ls -l
+ls -la
+ssh-keygen -t ed25519
+ls -la
+cd .ssh
+ls
+ls -l
+cat id_ed25519.pub 
+cd ..
+ls -l
+cd repogit/
+ls -l
+git clone git@github.com:IvanPaz24/repo_Paz.git
+ls
+cd repo_Paz/
+ls -l
+echo "hola"
+echo "hola" > hola.txt
+ls -l
+cat hola
+cat hola.txt
+git status
+git add .
+git status
+git commit -m "Agrego HOLA"
+gis status
+git status
+git push
+cat /etc/passwd
+tail /etc/passwd
+tail -n3 /etc/passwd
+head -n3 /etc/passwd
+cat /etc/passwd | grep vagrant
+cat /etc/passwd | grep bash
+cat /etc/passwd | grep -n bash
+cat /etc/passwd | grep -n nologin
+cat /etc/passwd | grep -nv nologin
+cat /etc/passwd | grep -v nologin
+cat /etc/passwd | grep -v nologin > archivo1.txt
+ls -l
+cat archivo1.txt 
+cat /etc/passwd | grep -nv nologin
+cat /etc/passwd | grep -nv nologin | tail -n3
+cat /etc/passwd | grep -nv nologin | head -n3
+cat /etc/passwd/shadow
+sudo cat /etc/passwd/shadow
+sudo cat /etc/passwd/shadow/
+sudo cat /etc/shadow
+lspci
+lscpu
+lscpu | grep i- model
+lscpu | grep -i model
+lscpu | grep -i model | head -n1
+lscpu | grep -i model | head -n1 > info_proc.txt
+ls
+cat info_proc.txt 
+sort archivo1.txt 
+cat archivo1.txt 
+sort archivo1.txt 
+history
+cat /etc/passwd | grep -nv nologin | head -n3
+cat << FIN > bloque_cat.txt
+linea 1
+linea 2
+linea 3
+FIN
+
+cat bloque_cat.txt 
+bc <<< 4+3 
+ls -l
+cat hola.txt 
+echo "chau" >> hola.txt
+cat hola.txt 
+echo "chau" > hola.txt
+echo "chau" >> chau.txt
+echo "hola" > hola.txt
+cat hola.txt chau.txt  > saludo.txt
+cat saludo.txt 
+ls -l
+gis status
+git status
+git add .
+git status
+git commit -m "clase_3"
+git push
+exit
+cd repogit/
+cd TP_AySO/
+git status
+ls
+apropos "dump traffic" > comando_dump_net
+echo apropos "dump traffict" >> commando_dump_net
+git add .
+git status
+rm comando_dump_net 
+rm commando_dump_net 
+apropos "dump traffic" > comando_dump_net
+echo apropos "dump traffict" >> comando_dump_net
+ls
+git add .
+git status
+git commit -m "ADD:Comando para Capturar y analizar el trafico en la red"
+cat <<FIN>> README.md
+Alumno: <Ivan Paz Agüero>
+Dision: <115>
+Turno: <Mañana>
+FIN
+
+cat README.md 
+git add .
+git commit -m "feat:Añadiendo informacion del alumno"
+history -a $HOME/.bash_history
+ls
+ls -la $HOME
+history -a $HOME/.bash_history
